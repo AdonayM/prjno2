@@ -1,0 +1,262 @@
+.menuIcon {
+  align-self: stretch;
+  width: 4px;
+  position: relative;
+  border-radius: 0 var(--br-base) var(--br-base) 0;
+  background-color: var(--color-white);
+}
+.image3Icon {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  object-fit: cover;
+}
+.assignedTasks {
+  position: relative;
+  display: inline-block;
+  min-width: 104px;
+}
+.assignedTasksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.image3Parent {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 21px;
+}
+.image3Parent,
+.menuHeader,
+.taskLink {
+  display: flex;
+  align-items: flex-start;
+}
+.taskLink {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-4xl) 0 0;
+}
+.menuHeader {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.image4Icon {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  object-fit: cover;
+}
+.logOut {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.logOutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.image4Parent,
+.logoutLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image4Parent {
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.logoutLink {
+  justify-content: flex-end;
+  padding: 0 var(--padding-27xl) 0 var(--padding-33xl);
+  color: var(--color-gray-100);
+}
+.sideMenu {
+  height: 790px;
+  width: 256px;
+  box-shadow: 4px 0 10px #3c63b3;
+  border-radius: 0 var(--br-29xl) var(--br-29xl) 0;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-99xl) 66px var(--padding-39xl) 0;
+  box-sizing: border-box;
+  gap: 516px;
+  min-width: 256px;
+}
+.assignedTasks1,
+.welcomeBackUser {
+  position: relative;
+  font-weight: 600;
+}
+.assignedTasks1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.assignedTasksContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.assignedTasksContainer,
+.sideMenuParent,
+.welcomeMessage,
+.welcomeMessageWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.welcomeMessage {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-8xl);
+}
+.sideMenuParent,
+.welcomeMessageWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.welcomeMessageWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 101px 0 0;
+  min-width: 209px;
+  color: var(--color-gray-100);
+}
+.sideMenuParent {
+  width: 857px;
+  flex-direction: row;
+  padding: 0 216px 0 0;
+  gap: 64px;
+  flex-shrink: 0;
+}
+.twoOrangeWorksheetsWithTas {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.twoOrangeWorksheetsWithTasWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 41px 0 0;
+}
+.twoOrangeWorksheetsWithTas1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.twoOrangeWorksheetsWithTasContainer {
+  height: 517px;
+  width: 422px;
+  flex-direction: column;
+  padding: var(--padding-42xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.main,
+.twoOrangeWorksheetsWithTasContainer,
+.userHomepage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 190px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.userHomepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1350px) {
+  .main {
+    flex-wrap: wrap;
+    gap: 95px;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .sideMenuParent {
+    gap: 32px;
+    padding-right: 108px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sideMenu {
+    flex: 1;
+    padding-top: var(--padding-58xl);
+    padding-right: 0;
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .assignedTasks1 {
+    font-size: var(--font-size-13xl);
+  }
+  .sideMenuParent {
+    flex-wrap: wrap;
+  }
+  .twoOrangeWorksheetsWithTasContainer {
+    padding-top: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .main {
+    gap: 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sideMenu {
+    gap: 258px;
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .assignedTasks1 {
+    font-size: var(--font-size-5xl);
+  }
+  .sideMenuParent {
+    gap: var(--gap-base);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .main {
+    gap: 24px;
+  }
+}

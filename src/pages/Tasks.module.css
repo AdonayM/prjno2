@@ -1,0 +1,641 @@
+.logoutRoundedIcon {
+  height: 17px;
+  width: 17px;
+  position: relative;
+  object-fit: cover;
+  min-height: 17px;
+}
+.logOut {
+  position: relative;
+  display: inline-block;
+  min-width: 51px;
+}
+.logOutWrapper {
+  cursor: pointer;
+}
+.logOutWrapper,
+.logoutButton,
+.logoutButtonContainer,
+.sideMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoutButton {
+  gap: var(--gap-mini);
+}
+.logoutButtonContainer,
+.sideMenu {
+  padding: 0 var(--padding-44xl);
+}
+.sideMenu {
+  height: 790px;
+  width: 256px;
+  box-shadow: 4px 0 10px #3c63b3;
+  border-radius: 0 var(--br-29xl) var(--br-29xl) 0;
+  background-color: var(--color-darkslateblue);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-99xl) 0 var(--padding-38xl);
+  box-sizing: border-box;
+  gap: var(--gap-333xl);
+}
+.tasks1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 116px;
+}
+.youngWomanWritingInANotep {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  object-fit: cover;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 0 0;
+}
+.nameFieldsChild {
+  width: 663px;
+  height: 525px;
+  position: relative;
+  box-shadow: 10px 0 14.2px #ada2c2;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-lavender);
+  display: none;
+  max-width: 100%;
+}
+.company {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 65px;
+  z-index: 1;
+}
+.companyLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.firstName {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+  z-index: 1;
+}
+.companyField {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  min-width: 183px;
+}
+.targetName {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 87px;
+  z-index: 1;
+}
+.lastName {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+  z-index: 1;
+}
+.firstNameField,
+.lastNameField {
+  display: flex;
+  justify-content: flex-start;
+}
+.lastNameField {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 183px;
+}
+.firstNameField {
+  width: 598px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.email {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 44px;
+  z-index: 1;
+}
+.emailLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.email1,
+.emailField {
+  box-sizing: border-box;
+}
+.email1 {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  border-radius: var(--br-5xs);
+  min-width: 190px;
+  z-index: 1;
+}
+.emailField {
+  width: 316px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  gap: var(--gap-3xs);
+}
+.assignedExpert1 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 112px;
+  z-index: 1;
+}
+.expertLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.department {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+  z-index: 1;
+}
+.assignedExpert {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.dateInput,
+.requiredCompletionDate {
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+.requiredCompletionDate {
+  position: relative;
+  color: var(--color-darkslateblue);
+  text-align: left;
+  z-index: 1;
+}
+.dateInput {
+  width: 76px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-100);
+}
+.calendarIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+  min-height: 20px;
+}
+.dateSelector {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-2xs) var(--padding-7xs) 17px;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.completionDate,
+.expertDateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.completionDate {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.expertDateContainer {
+  flex: 1;
+  gap: var(--gap-12xl);
+  min-width: 183px;
+}
+.assignedDate {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.dateRemarkFieldsChild {
+  height: 32px;
+  width: 281px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  box-sizing: border-box;
+  display: none;
+}
+.assignedDate1 {
+  width: 76px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.calendarIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+  min-height: 20px;
+  z-index: 2;
+}
+.dateRemarkFields,
+.dateRemarkPair {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.dateRemarkFields {
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 0.5px solid var(--color-dimgray);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-lg);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.dateRemarkPair {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.remark {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 52px;
+  z-index: 1;
+}
+.dateRemarkPairChild {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+  z-index: 1;
+}
+.dateRemarkPair1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.additionalInfo,
+.dateRemarkPair1,
+.expertDateField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.additionalInfo {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12xl);
+  min-width: 183px;
+}
+.expertDateField {
+  width: 597px;
+  flex-direction: row;
+  padding: 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.description {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-darkslateblue);
+  text-align: left;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.descriptionLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs);
+}
+.department1 {
+  border: 0.5px solid var(--color-dimgray);
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  min-width: 169px;
+  z-index: 1;
+}
+.descriptionField {
+  width: 282px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.nameFields,
+.personalInfo {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.nameFields {
+  flex: 1;
+  box-shadow: 10px 0 14.2px #ada2c2;
+  border-radius: var(--br-lgi);
+  background-color: var(--color-lavender);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-42xl) var(--padding-5xl) 49px;
+  gap: 28px;
+}
+.personalInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 7px 0 0;
+}
+.addTaskButtonChild {
+  height: 27px;
+  width: 96px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-orangered-200);
+  display: none;
+}
+.addTask {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 1;
+}
+.addTaskButton,
+.formFields {
+  display: flex;
+  justify-content: flex-start;
+}
+.addTaskButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8xs) 14px var(--padding-8xs) var(--padding-2xl);
+  background-color: var(--color-orangered-200);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+.addTaskButton:hover {
+  background-color: var(--color-orangered-100);
+}
+.formFields {
+  margin: 0;
+  width: 670px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-19xl);
+  max-width: 100%;
+}
+.contentBody,
+.headerTitle,
+.taskForm {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.taskForm {
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contentBody,
+.headerTitle {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.contentBody {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-13xl);
+  box-sizing: border-box;
+}
+.headerTitle {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.contentHeader {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-60xl) 0 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 329px);
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+}
+.content,
+.contentHeader,
+.tasks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  width: 1344px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-54xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}
+.tasks {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .sideMenu {
+    display: none;
+    padding-top: var(--padding-58xl);
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .tasks1 {
+    font-size: var(--font-size-13xl);
+  }
+  .taskForm {
+    flex-wrap: wrap;
+  }
+  .contentHeader {
+    padding-top: var(--padding-32xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .content {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .expertDateField,
+  .firstNameField {
+    flex-wrap: wrap;
+    gap: var(--gap-mid);
+  }
+  .nameFields {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .formFields {
+    gap: var(--gap-lgi);
+  }
+  .content {
+    gap: var(--gap-17xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sideMenu {
+    padding-top: var(--padding-31xl);
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .tasks1 {
+    font-size: var(--font-size-5xl);
+  }
+  .additionalInfo,
+  .expertDateContainer {
+    gap: var(--gap-mini);
+  }
+  .content {
+    gap: var(--gap-lg);
+  }
+}

@@ -1,0 +1,53 @@
+.menuPanel {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xl) 0 0;
+  color: var(--color-white);
+}
+.todoListIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  object-fit: contain;
+  min-height: 20px;
+}
+.tasks {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.tasksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-5) 0 0;
+}
+.menuItems,
+.todoListParent {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.todoListParent {
+  width: 150px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-7xl) 0 var(--padding-7xl) var(--padding-xl);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.menuItems {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-100);
+  font-family: var(--font-inter);
+}
